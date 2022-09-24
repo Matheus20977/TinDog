@@ -18,6 +18,10 @@ h1 {
   color: #fff;
 }
 
+#features {
+  padding: 7% 10%;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -50,4 +54,37 @@ h1 {
 .title-image {
   transform: rotate(25deg);
   width: 60%;
+}
+
+/* Features */
+
+.fa-solid {
+  color: #ef8172;
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.feature-cols {
+  margin: 3rem 0 3rem 0;
+}
+
+.feature-description {
+  color: #8f8f8f;
+  margin: auto;
+  width: 70%;
+}
+
+.feature-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.features-row {
+  text-align: center;
 }
