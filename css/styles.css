@@ -27,7 +27,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title {
@@ -66,13 +66,21 @@ p {
 
 .title-image {
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
   width: 60%;
+}
+
+.title-image-div {
+  position: relative;
 }
 
 /* Features Section */
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
 }
 
 .icon {
@@ -116,4 +124,15 @@ p {
 .press-logo {
   margin: 1.25rem 1.25rem 3.125rem;
   width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 6.25rem;
+  text-align: center;
+}
+
+.pricin-column {
+  padding: 3% 2%;
 }
