@@ -136,3 +136,27 @@ p {
 .pricin-column {
   padding: 3% 2%;
 }
+
+/* CTA Section */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta-h3 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
