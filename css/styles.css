@@ -150,6 +150,18 @@ p {
   font-size: 3rem;
 }
 
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 2% 1%;
+}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
