@@ -53,7 +53,7 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 /* Download Buttons */
@@ -140,14 +140,16 @@ p {
 /* CTA Section */
 
 #cta {
-  text-align: center;
+  color: #fff;
   background-color: #ff4c68;
   padding: 7% 15%;
+  text-align: center;
 }
 
 .cta-h3 {
-  color: #fff;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
 }
 
 /* Footer Section */
